@@ -1,0 +1,19 @@
+{
+  "name": "nexium-palbridge",
+  "version": "1.0.0",
+  "description": "Discord bridge and administration bot for Palworld dedicated servers.",
+  "type": "module",
+  "author": "Nexium Labs",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/palworld.js && node --check src/bridge.js && node --check src/commands.js && node --check src/utils.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
